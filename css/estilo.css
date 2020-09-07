@@ -1,0 +1,75 @@
+body
+{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    background-color:#000000;
+    background: linear-gradient(-45deg,#000000,  #222831);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h1
+{
+    padding-bottom :100px;
+    font-size:65px;
+    position:relative;
+}
+
+.botao
+{
+    padding-bottom :100px;
+    padding-left: 50px;
+    padding-top: 15px;
+    position:absolute;
+    right:8%;
+}
+
+
+/* Logo and Pictures Hover */
+
+.logo
+{
+    font-size:40px;
+    position:absolute;
+    left:25px;
+}
+
+
+.logo:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.3);
+}
+
+.pic
+{
+    padding-bottom: 65px;
+    position: relative;
+}
+
+
+.pic:hover
+{
+        -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        transform: scale(1.15);
+}
+
+
+
+
+
