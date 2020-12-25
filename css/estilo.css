@@ -6,9 +6,8 @@ body
 }
 
 .logo
-{
-    position:relative;
-    left: 413px;
+{   position:relative;
+    left: 36%;
     padding-bottom: 50px;
     padding-top: 20px;
 }
@@ -38,8 +37,8 @@ h1
 .botao
 {
     position: absolute;
-    right: 500px;
-    padding-top: 30px;
+    left: 68%;
+    padding-top: 20px;
     
 }
 
