@@ -14,17 +14,20 @@ body
 
 .pic
 {
-    padding-bottom: 65px;
-    position: relative;
-    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
 }
 
 .pic:hover
 {       
-        transform: scale(1.05);
+        transform: scale(1.02);
 }
 
-.position{
-    margin-left: 80px;
+.circle{
+    border-radius: 50%;
+}
+
+p{
+    font-size: larger;
 }
 
