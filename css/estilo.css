@@ -5,6 +5,27 @@ body
     background-color:#111111;
 }
 
+.about
+{
+    flex-wrap: wrap;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.buttonper{
+    top: 1%;
+    right : 2%;
+    position: fixed;
+ }
+
+ .itensper{
+     right: 20%;
+ }
+
+
+
 .logo
 {   
     padding-bottom: 50px;
@@ -20,7 +41,7 @@ body
 
 .pic:hover
 {       
-        transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .circle{
@@ -30,4 +51,3 @@ body
 p{
     font-size: larger;
 }
-
