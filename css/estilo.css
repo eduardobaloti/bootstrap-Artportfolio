@@ -13,7 +13,6 @@ body
 }
 
 
-
 .buttonper{
     top: 1%;
     right : 2%;
@@ -46,6 +45,7 @@ body
 
 .circle{
     border-radius: 50%;
+    padding-bottom: 20px;
 }
 
 p{
